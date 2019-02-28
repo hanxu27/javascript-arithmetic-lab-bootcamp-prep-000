@@ -15,15 +15,15 @@ function divide(a, b) {
 }
 
 function inc(n) {
-  return praseInt(n) + 1
+  return parseInt(n) + 1
 }
 
 function dec(n) {
-  return praseInt(n) - 1
+  return parseInt(n) - 1
 }
 
 function makeInt(n) {
-  return praseInt(n, 10)
+  return parseInt(n, 10)
 }
 
 function preserveDecimal(n) {
